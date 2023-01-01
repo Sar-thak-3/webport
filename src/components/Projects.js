@@ -6,28 +6,36 @@ const Projects = () => {
         <div id='projects' style={{height: "50vh"}}>
             <div className="container">
                 <div className="card">
-                    <h3 className="title">Card 1</h3>
+                    <a href="https://github.com/Sar-thak-3/Healdata"><h3 className="title">Healdata</h3></a>
                     <div className="bar">
                         <div className="emptybar"></div>
                         <div className="filledbar"></div>
                     </div>
                 </div>
                 <div className="card">
-                    <h3 className="title">Card 2</h3>
+                    <a href="https://github.com/Sar-thak-3/webport"><h3 className="title">Webport</h3></a>
                     <div className="bar">
                         <div className="emptybar"></div>
                         <div className="filledbar"></div>
                     </div>
                 </div>
                 <div className="card">
-                    <h3 className="title">Card 3</h3>
+                    <a href="https://github.com/Sar-thak-3/Jobsapi-Project"><h3 className="title">JobsApi</h3></a>
+                    <div className="bar">
+                        <div className="emptybar"></div>
+                        <div className="filledbar"></div>
+                        <p className='project-content'>Jobsapi project</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <a href=""><h3 className="title">Card 4</h3></a>
                     <div className="bar">
                         <div className="emptybar"></div>
                         <div className="filledbar"></div>
                     </div>
                 </div>
                 <div className="card">
-                    <h3 className="title">Card 4</h3>
+                    <a href=""><h3 className="title">Emoji Prediction</h3></a>
                     <div className="bar">
                         <div className="emptybar"></div>
                         <div className="filledbar"></div>
