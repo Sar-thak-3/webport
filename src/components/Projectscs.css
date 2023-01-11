@@ -2,6 +2,9 @@
   padding-left: 0;
   padding-top: 5vh;
   display: flex;
+  justify-content: center;
+  text-align: center;
+  /* padding-left: 5%; */
 }
 
 .card {
@@ -45,12 +48,12 @@
   top: 50px;
   left: 20px;
   height: 5px;
-  width: 150px;
+  width: 80%;
 }
 
 .emptybar {
   background-color: #2e3033;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
 }
 
@@ -71,7 +74,7 @@
 }
 
 .card:hover .filledbar {
-  width: 120px;
+  width: 80%;
   transition: 0.4s ease-out;
 }
 .project-content{

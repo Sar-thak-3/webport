@@ -1,4 +1,3 @@
-import './App.css';
 import Navbar from './components/Navbar';
 import Story from './components/About';
 import Projects from './components/Projects';

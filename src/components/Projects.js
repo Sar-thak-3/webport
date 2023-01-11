@@ -32,6 +32,7 @@ const Projects = () => {
                     <div className="bar">
                         <div className="emptybar"></div>
                         <div className="filledbar"></div>
+                        <p></p>
                     </div>
                 </div>
                 <div className="card">
