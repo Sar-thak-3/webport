@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './Home.css'
 import { Helmet } from "react-helmet";
 // import "../assets/photo.png"
@@ -99,7 +99,7 @@ const Home = (props)=>{
               <span>
                 I have various achievements and contributions in the technology. Some of them are:-
                 <ul style={{listStyle: "circle"}}>
-                    <li>Currenlty contributing to two major open source projects <a href="https://github.com/unifyai/ivy/pulls/Sar-thak-3" style={{textDecorationLine: "underline"}}>Ivy</a> & <a href="" style={{textDecorationLine: "underline"}} >Tensorflow</a></li>
+                    <li>Currently contributing to two major open source projects <a href="https://github.com/unifyai/ivy/pulls/Sar-thak-3" style={{textDecorationLine: "underline"}}>Ivy</a> & <a href="" style={{textDecorationLine: "underline"}} >Tensorflow</a></li>
                     <li>Currently securing 150th rank in <a href="https://gssoc.girlscript.tech/leaderboard" style={{textDecorationLine: "underline"}}>Girlscript Summer of Code 2023</a> out of 10k participants</li>
                     <li>Secured 35th rank in <a style={{textDecorationLine: "underline"}} href="https://pwoc.vercel.app/leaderboard">JGEC Winter of Code 2023</a></li>
                     <li>Among top 5 contributors in <a style={{textDecorationLine: "underline"}} href="https://jwoc.tech/">PEC Winter of Code 2023</a></li>
@@ -170,12 +170,17 @@ const Home = (props)=>{
       <li class="skills-showcase__list-item">
         <i class="devicon-git-plain"></i>
       </li>
-
-      <li class="skills-showcase__list-item">
-        <i class="devicon-android-plain"></i>
-      </li>
       <li class="skills-showcase__list-item">
         <i class="devicon-python-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-cplusplus-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+      <i class="devicon-tensorflow-original"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+      <i class="devicon-nextjs-original"></i>
       </li>
     </ul>
   </section>
@@ -219,7 +224,7 @@ const Home = (props)=>{
                 <span>
                 </span>
               </p>
-              <a href="extract-frontend-six.vercel.app/" class="btn btn-theme projects__btn-theme">
+              <a href="https://extract-frontend-six.vercel.app/" class="btn btn-theme projects__btn-theme">
                 Live Link
               </a>
               <a href="https://github.com/Sar-thak-3/Extract" class="btn btn-inv projects__btn-inv">Code Link</a>
@@ -289,7 +294,7 @@ const Home = (props)=>{
                 <span> 
                 </span>
               </p>
-              <a href="" class="btn btn-theme projects__btn-theme">
+              <a href="https://github.com/Sar-thak-3/Anonymous" class="btn btn-theme projects__btn-theme">
                 Live Link
               </a>
               <a href="https://github.com/Sar-thak-3/Anonymous" class="btn btn-inv projects__btn-inv">Code Link</a>
